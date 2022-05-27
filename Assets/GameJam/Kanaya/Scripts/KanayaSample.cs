@@ -14,13 +14,21 @@ public class KanayaSample : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))// 右移動
+        if (Input.GetKey(KeyCode.W))//上移動
         {
-            transform.position += new Vector3(speed,0,0);
+            transform.position += new Vector3(0, speed, 0);
         }
-        if(Input.GetKey(KeyCode.A))//左移動
+        if (Input.GetKey(KeyCode.A))//左移動
         {
             transform.position += new Vector3(-speed, 0, 0);
+        }
+        if (Input.GetKey(KeyCode.S))//下移動
+        {
+            transform.position += new Vector3(0, -speed, 0);
+        }
+        if (Input.GetKey(KeyCode.D))// 右移動
+        {
+            transform.position += new Vector3(speed, 0, 0);
         }
     }
 }

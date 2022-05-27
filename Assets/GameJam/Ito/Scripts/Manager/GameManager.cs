@@ -48,7 +48,7 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
         print("ゲームオーバ");
     }
 
-    private void GameClear()
+    public void GameClear()
     {
         OnGameClear?.Invoke();
         _gameClearCanvas.DOFade(1, _fadeDuration);

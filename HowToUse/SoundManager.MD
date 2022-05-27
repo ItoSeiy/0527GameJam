@@ -15,7 +15,7 @@
 
 Name は 効果音の名前を入力して下さい(音を流す際アクセスするキーワードになります)
 
-Prefab は [効果音が流れるプレハブ](https://github.com/ItoSeiy/Demension/blob/main/HowToUse/SoundManager.MD#%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%AE%E3%83%97%E3%83%AC%E3%83%8F%E3%83%96%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95)を設定します(後述します)
+Prefab は [効果音が流れるプレハブ](https://github.com/ItoSeiy/0527GameJam/blob/main/HowToUse/SoundManager.MD#%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%AE%E3%83%97%E3%83%AC%E3%83%8F%E3%83%96%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95)を設定します(後述します)
 
 MaxCountについては10ほどで大丈夫です
 

@@ -30,7 +30,7 @@ MaxCountについては10ほどで大丈夫です
 3.効果音のオーディオクリップを設定し、下記画像のようにPlayOnAwakeにチェックが入っていることを確認してください
 <img src= "https://user-images.githubusercontent.com/89116872/159149118-857fa167-bab5-4eb3-b26c-19ab0d474f07.png" width="200" align="top">
 
-4. [SoundManagerの設定](https://github.com/ItoSeiy/Demension/blob/main/HowToUse/SoundManager.MD#%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95)への設定を忘れないようにお願いします
+4. [SoundManagerの設定](https://github.com/ItoSeiy/0527GameJam/edit/main/HowToUse/SoundManager.MD#%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%AE%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95)への設定を忘れないようにお願いします
 
 ## BGM の設定方法
 

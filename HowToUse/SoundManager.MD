@@ -1,4 +1,4 @@
-# [SoundManager](https://github.com/ItoSeiy/Demension/blob/main/Assets/Script/Sound/SoundManager.cs)の使用方法
+# [SoundManager](https://github.com/ItoSeiy/0527GameJam/blob/main/Assets/GameJam/Ito/Scripts/Manager/SoundManager.cs)の使用方法
 
 **サウンドマネージャーは効果音, BGMを管理,再生するものです**
 分からないことがあったら伊東までお願いします

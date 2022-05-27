@@ -35,6 +35,18 @@ TextureImporter:
   - first:
       213: -1278754961111173616
     second: NobleHouseA5_10
+  - first:
+      213: 288252627158470676
+    second: NobleHouseA5_11
+  - first:
+      213: 453474110561624913
+    second: NobleHouseA5_12
+  - first:
+      213: -5358491088609030990
+    second: NobleHouseA5_13
+  - first:
+      213: 449526309610859241
+    second: NobleHouseA5_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,7 +137,7 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 32
-        width: 128
+        width: 127
         height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -346,6 +358,90 @@ TextureImporter:
       bones: []
       spriteID: 01633345323f04ee0800000000000000
       internalID: -1278754961111173616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NobleHouseA5_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 416
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4109a57bc34100400800000000000000
+      internalID: 288252627158470676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NobleHouseA5_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153acda0d401b4600800000000000000
+      internalID: 453474110561624913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NobleHouseA5_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bccc53deb0d2a5b0800000000000000
+      internalID: -5358491088609030990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NobleHouseA5_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea2c810cc90d3600800000000000000
+      internalID: 449526309610859241
       vertices: []
       indices: 
       edges: []

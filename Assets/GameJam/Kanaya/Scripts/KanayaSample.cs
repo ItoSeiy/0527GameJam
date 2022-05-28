@@ -1,34 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KanayaSample : MonoBehaviour
 {
-    [SerializeField] float speed;
+    [SerializeField] Text ClearText;
     // Start is called before the first frame update
     void Start()
     {
-
+        ClearText.enabled = false;
+        Invoke("GameClear", 5.5f);
     }
-
-    // Update is called once per frame
-    void Update()
+    public void GameClear()
     {
-        if (Input.GetKey(KeyCode.W))//上移動
-        {
-            transform.position += new Vector3(0, speed, 0);
-        }
-        if (Input.GetKey(KeyCode.A))//左移動
-        {
-            transform.position += new Vector3(-speed, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.S))//下移動
-        {
-            transform.position += new Vector3(0, -speed, 0);
-        }
-        if (Input.GetKey(KeyCode.D))// 右移動
-        {
-            transform.position += new Vector3(speed, 0, 0);
-        }
+        ClearText.enabled = true;
     }
+
 }

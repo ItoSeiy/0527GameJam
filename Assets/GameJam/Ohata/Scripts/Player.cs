@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     private Vector2 lookDirection = new Vector2(1, 0);
 
     [SerializeField]
-    private float speed = 3f;
+    private float speed = 500f;
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();

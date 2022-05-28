@@ -20,7 +20,7 @@ public class KanayaSample : MonoBehaviour
         ClearText.enabled = true;
         _RetryButton.SetActive(true);
     }
-   public void Retry()
+    public void Retry()
     {
         SceneManager.LoadScene("TitleScene");
     }

@@ -7,7 +7,7 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && GameManager.Instance.IsGetAllKey)
         {
             GameManager.Instance. GameClear();
         }

@@ -8220,6 +8220,11 @@ PrefabInstance:
       propertyPath: speed
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 969278667597929035, guid: 9d48f78ce93143f42a989c948aa70713,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1895762461762880390, guid: 9d48f78ce93143f42a989c948aa70713,
         type: 3}
       propertyPath: m_Name

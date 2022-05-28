@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.gameObject.tag == "Player" && GameManager.Instance.IsGetAllKey)
+        if (collision.gameObject.tag == "Player" && GameManager.Instance.IsGetAllKey)
         {
-            GameManager.Instance. GameClear();
+            GameManager.Instance.GameClear();
         }
     }
 }

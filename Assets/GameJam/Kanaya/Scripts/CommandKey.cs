@@ -23,7 +23,7 @@ public class CommandKey : MonoBehaviour
 
     void GetItem()
     {
-        //GameManager.Instance.GetKey();
+        GameManager.Instance.GetKeyItem();
     }
     private void OnCollisionEnter2D(Collision2D other)
     {

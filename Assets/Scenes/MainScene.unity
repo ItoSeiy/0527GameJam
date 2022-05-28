@@ -8694,7 +8694,7 @@ PrefabInstance:
     - target: {fileID: 617898950667143747, guid: f8dc01c31d84c7e40a8a286b99d3588f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 617898950879826162, guid: f8dc01c31d84c7e40a8a286b99d3588f,
         type: 3}
@@ -8761,6 +8761,21 @@ PrefabInstance:
       propertyPath: _gameClearCanvas
       value: 
       objectReference: {fileID: 1183835442}
+    - target: {fileID: 4961206505748290679, guid: f8dc01c31d84c7e40a8a286b99d3588f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961206506666182257, guid: f8dc01c31d84c7e40a8a286b99d3588f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4961206507135400259, guid: f8dc01c31d84c7e40a8a286b99d3588f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6800053616513819726, guid: f8dc01c31d84c7e40a8a286b99d3588f,
         type: 3}
       propertyPath: m_IsActive

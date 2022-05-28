@@ -36,8 +36,8 @@ public class CommandKey : MonoBehaviour
     {
         GetItem();
         _Text.text = "鍵を見つけた";
-        _Key = true;
-        _Touch = true;
+        //_Key = true;
+        //_Touch = true;
         _Panel.SetActive(false);
     }
     public void CommandNo()

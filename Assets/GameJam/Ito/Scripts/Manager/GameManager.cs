@@ -53,6 +53,7 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
         OnGameClear?.Invoke();
         _gameClearCanvas.DOFade(1, _fadeDuration);
         print("ゲームクリア");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameEndScene");
     }
 
     /// <summary>
